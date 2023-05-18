@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    height: 100vh;
+    background-color: #222222;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+header ul li {
+    text-align: left; 
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+header a {
+    color: #0000006c;
+}
+
+header span {
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#menures {
+    display: none;
+}
+
+#perfil {
+    background: url(/imagens/d3e6d4b6-0de2-4c85-96cd-b4f9fdbe30b0.jpg) center no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #70A699;
+}
+
+#tecnologias h2 {
+    text-align: center;
+}
+
+#logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#javascript {
+    width: 80px;
+    height: 80px;
+    background: url(/imagens/icons8-javascript-80.png);
+}
