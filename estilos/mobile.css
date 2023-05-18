@@ -44,7 +44,7 @@ header span {
 }
 
 #perfil {
-    background: url(/imagens/d3e6d4b6-0de2-4c85-96cd-b4f9fdbe30b0.jpg) center no-repeat ;
+    background: url(/imagens/personagem.webp) center no-repeat ;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -64,8 +64,4 @@ header span {
     justify-content: space-around;
 }
 
-#javascript {
-    width: 80px;
-    height: 80px;
-    background: url(/imagens/icons8-javascript-80.png);
-}
+
