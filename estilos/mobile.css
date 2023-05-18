@@ -45,7 +45,6 @@ header span {
 
 #perfil {
     background: url(/imagens/personagem.webp) center no-repeat ;
-    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
