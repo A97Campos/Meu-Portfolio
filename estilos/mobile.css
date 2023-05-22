@@ -20,14 +20,13 @@ h2 {
 /* header */
 
 body {
-    height: 100vh;
     background-color: #222222;
 }
 
 header {
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: #343434;
 }
 
 header ul li {
@@ -37,27 +36,26 @@ header ul li {
 }
 
 header a {
-    color: #0000006c;
+    color: #70A699;
 }
 
 header span {
     cursor: pointer;
     margin: 10px;
-    padding: 5px;
-    border: 2px solid black;
+    padding: 10px;
+    border: 2px solid #70A699;
     border-radius: 5px;
 }
 
 #menures {
     display: none;
+    background-color: #343434;
 }
 
 /* Perfil */
 
 #perfil {
-    background: url(personagem.webp) center no-repeat;
-    background-size: cover;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -71,7 +69,30 @@ header span {
     margin-bottom: 10px;
 }
 
+#perfil p {
+    margin-bottom: 20px;
+}
+
+#perfil a{
+    border: 2px solid #70A699;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 90px auto 0px auto;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+#perfil a:hover {
+    letter-spacing: 0.3em;
+    transition: 0.9s;
+    text-align: center;
+}
+
 /* Tecnologias */
+
+#tecnologias {
+    background-color: #343434;
+}
 
 #logos {
     display: flex;
@@ -83,13 +104,31 @@ header span {
 /* Projetos */
 
 .box-projetos {
-    border: 3px solid #70A699;
+    border-radius: 30px;
+    background-color: #70A699;
+    color: #222222;
     width: 300px;
     height: 300px;
     margin: 20px auto;
     text-align: center;
 }
 
+.box-projetos:hover {
+    background-color: #222222;
+    border: 3px solid #70A699;
+    color: #70A699;
+    width: 310px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+/* sobre mim */
+
 #sobre {
     text-align: center;
+    background-color: #343434;
+}
+
+#sobre p {
+    margin-bottom: 30px;
 }
