@@ -1,3 +1,62 @@
 @media screen and (min-width: 992px){
-    
+   .tamanho {
+    width: 1200px;
+    margin: auto;
+   }
+
+   /* Header */
+
+    .material-symbols-outlined {
+        display: none;
+    }
+    #menures {
+        display: block;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #menures a:hover {
+        color: white;
+    }
+
+    /* Menu */
+
+    #perfil {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #menuImg {
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        animation: move 5s infinite;
+    }
+
+    @keyframes move {
+        0%{
+            position: relative;
+            top: 0%;
+        }
+        50% {
+            position: relative;
+            top: -5%;
+        }
+
+        100% {
+            position: relative;
+            top: 0%;
+        }
+    }
+
+    /* Projetos */
+
+    #projetos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
